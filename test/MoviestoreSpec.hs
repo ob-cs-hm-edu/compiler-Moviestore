@@ -11,6 +11,6 @@ spec = do
             showMoviestore  ([],[])
                 `shouldBe`
                     (  "Verfügbare Filme (0)\n====================\n\n"
-                    ++ "Ausgeliehene Filme (0)\n======================\n"
+                    ++ "Ausgeliehene Filme (0)\n======================\n\n"
                     )
 
