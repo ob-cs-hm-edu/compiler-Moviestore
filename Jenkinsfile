@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'stack --no-terminal test --haddock --no-haddock-dep'
+                sh 'stack --no-terminal test --haddock --no-haddock-deps'
             }
         }
     }
